@@ -1,4 +1,4 @@
-{
+module.exports = {
   "env": {
     "browser": true,
     "es2021": true,
@@ -23,6 +23,7 @@
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "prefer-const": "error"
+    "prefer-const": "error",
+    "no-unused-vars": "error"
   }
 }
